@@ -1,6 +1,6 @@
 # SECURITY POLICY
 
-Merci de contribuer à la sécurité de WEB-SITE-PROJECT.
+Merci de contribuer à la sécurité de WEBSite.
 
 ---
 
