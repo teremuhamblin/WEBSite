@@ -20,18 +20,18 @@
 scripts/serve.sh
 ```
 
-📦 Build
+### 📦 Build
 ```bash
 scripts/build.sh
 ```
 
-☁️ Déploiement
+### ☁️ Déploiement
 ```bash
 scripts/deploy.sh
 ```
 
-📜 Licence
-```est
+### 📜 Licence
+```text
 MIT
 ```
 
