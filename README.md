@@ -1,6 +1,6 @@
 ##### README.md - markdown 
 # WEBSite
-> Projet modulaire pour la création d’un projet WEBSite pour internet
+> Projet modulaire pour la création d’un projet >> `"WEBSite"` << pour internet
 - Compatible HTML/CSS/JS natif, frameworks (Tailwind, Bootstrap), ou intégration backend
 ---
 ### 🎯 Objectifs
