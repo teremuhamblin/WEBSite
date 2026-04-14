@@ -1,6 +1,6 @@
 ##### Structure.md - markdown
 ## Projet : WEBSite
-### 📁 Arborescences et Stuctures
+### 📁 Arborescence et stucture
 #### 🚀 Objectif du projet : 
 - Squelette pour la `branche main` extensible, `compatible CI/CD`, `Sphinx/Markdown`, et prêt pour un site statique ou dynamique.
 ---
