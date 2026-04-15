@@ -17,3 +17,29 @@ Le projet repose sur une architecture simple :
 1. Édition du contenu dans `src/`
 2. Build via `scripts/build.sh`
 3. Déploiement automatisé
+
+
+🏗️ 2) ARCHITECTURE.md
+
+`markdown
+
+Architecture du projet
+
+Structure générale
+Le projet est organisé pour rester simple, modulaire et évolutif.
+
+`
+src/
+├── *.html
+├── assets/
+├── css/
+└── js/
+`
+
+Principes
+- Séparation claire HTML / CSS / JS
+- Modularité des composants
+- Structure adaptée aux projets statiques ou dynamiques
+`
+
+---
