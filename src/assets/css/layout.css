@@ -1,0 +1,46 @@
+---
+
+# 🎨 **src/css/layout.css**
+
+```css
+/* =========================
+   LAYOUT — WEBSite
+========================= */
+
+/* Containers */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 0;
+}
+
+/* Grille 2 colonnes */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Grille 3 colonnes */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 2rem 0;
+  }
+}
