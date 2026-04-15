@@ -1,0 +1,81 @@
+/* =========================
+   MAIN — Global Styles
+========================= */
+
+/* Imports */
+@import url('./variables.css');
+@import url('./layout.css');
+@import url('./components.css');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+html {
+  font-family: var(--font-main);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color-black);
+}
+
+body {
+  background: var(--color-bg);
+}
+
+/* Liens */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Titres */
+h1, h2, h3, h4 {
+  margin-bottom: var(--space-sm);
+  font-weight: 600;
+}
+
+/* Paragraphes */
+p {
+  margin-bottom: var(--space-sm);
+  max-width: 700px;
+}
+
+/* Header */
+header {
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-sm) 0;
+}
+
+nav ul {
+  display: flex;
+  gap: var(--space-sm);
+  list-style: none;
+}
+
+nav a {
+  font-weight: 500;
+  color: var(--color-black);
+}
+
+nav a:hover {
+  color: var(--color-primary);
+}
+
+/* Footer */
+footer {
+  background: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-sm) 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
