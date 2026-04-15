@@ -1,13 +1,23 @@
-Scripts
+# Scripts — WEBSite
 
-Ce dossier contient les scripts Bash utilisés pour développer, construire et déployer le projet WEBSite.  
-Ils sont légers, portables et pensés pour automatiser les tâches essentielles du workflow.
+Ce dossier regroupe les scripts Bash utilisés pour automatiser le workflow du projet WEBSite.
 
-📜 Contenu
+## 📁 Structure
 
-- serve.sh — Lance un serveur local pour le développement.
-- build.sh — Prépare les fichiers pour la production (minification, copie vers dist/).
-- deploy.sh — Déploie le site sur GitHub Pages (branche gh-pages).
+- `core/` — Scripts principaux (serve, build, deploy)
+- `utils/` — Outils (clean, watch, lint, init)
+
+### Optionnel 
+- `advanced/` — Scripts avancés (optimisation, backup, rollback, HTTPS, tests)
+- `ci/` — Scripts utilisés par la CI/CD
+
+## ▶️ Utilisation
+
+Rendre les scripts exécutables :
+
+```bash
+chmod +x scripts/**/*.sh
+```
 
 ▶️ Utilisation
 
